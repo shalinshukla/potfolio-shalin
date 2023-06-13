@@ -1,0 +1,15 @@
+app_step_form.page:
+  path: '/admin/app/generate-build-app'
+  defaults:
+    _form: '\Drupal\app_step_form\Form\BuildAppForm'
+    _title: 'Generate Angular App'
+  requirements:
+    _permission: 'access administration pages'
+
+app_step_form.delete_app:
+  path: '/angular/{block_uuid}/{file_unique_id}/{directory_type}'
+  defaults:
+    _controller: '\Drupal\app_step_form\Controller\DeleteAppController::delete_app'
+    _title: 'For Angular app services'
+  requirements:
+    _permission: 'access administration pages'

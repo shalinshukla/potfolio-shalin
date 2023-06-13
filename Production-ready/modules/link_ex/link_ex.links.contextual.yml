@@ -1,0 +1,6 @@
+# Add contextual link to ECK entity.
+entity.component.edit_form:
+  route_name: entity.component.edit_form
+  group: component
+  title: Edit
+  weight: -1

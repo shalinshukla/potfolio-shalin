@@ -1,0 +1,6 @@
+name: App Build
+type: module
+description: 'Defines an application to generate the Angular app as an inbuilt application in Drupal.'
+core_version_requirement: ^9 || ^10
+package: Custom
+configure: app_step_form.page

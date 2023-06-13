@@ -1,0 +1,10 @@
+name: Cookie Block
+type: module
+description: 'Module to add the condition on based of the cookie condition.'
+core_version_requirement: ^8 || ^9 || ^10
+package: Other
+
+# Information added by Drupal.org packaging script on 2022-12-02
+version: '2.0.2'
+project: 'cookie_block'
+datestamp: 1670025345

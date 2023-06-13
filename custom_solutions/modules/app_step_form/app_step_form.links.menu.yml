@@ -1,0 +1,20 @@
+app_step_form.parent:
+  title: 'Angular App Config'
+  parent: system.admin_config
+  description: 'Configuration for the angular app.'
+  route_name: app_step_form.page
+  weight: 100
+
+app_step_form.parent_child:
+  title: 'App Builder'
+  parent: app_step_form.parent
+  description: 'Generate the app with the form builder.'
+  route_name: app_step_form.page
+  weight: 101
+
+app_step_form.parent_second_child:
+  title: 'Active App Listing'
+  parent: app_step_form.parent
+  description: 'Active app listing.'
+  route_name: view.active_angular_application.page_1
+  weight: 102
